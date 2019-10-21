@@ -13,7 +13,7 @@ switch($_GET['n']){
             $link="mplay.php?mso=".$two;
                 echo "
                 <li class='col-md-5 col-sm-4 col-xs-3 '><div class='stui-vodlist__box'>
-                <a class='stui-vodlist__thumb lazyload img-shadow' href='$link' title='$zname' alt='$zname' style='background:url({$zimg}) no-repeat'>
+                <a class='stui-vodlist__thumb lazyload img-shadow' href='$link' title='$zname' alt='$zname' style='background:url({$zimg}) no-repeat;background-size:100%;background-position:40% 60%;'>
                 <span class='play hidden-xs'></span>
                 </a><div class='stui-vodlist__detail'>
                 <h4 class='title text-overflow'>
@@ -51,7 +51,7 @@ switch($_GET['n']){
             echo "
 		   <li class='hidden-xs'>
             <div class='stui-vodlist__box'>
-                <a class='stui-vodlist__thumb lazyload' href='$link' title='$zname' style='background:url({$zimg}) no-repeat;'>
+                <a class='stui-vodlist__thumb lazyload' href='$link' title='$zname' style='background:url({$zimg}) no-repeat;background-size:100%;background-position:40% 60%;'>
                     <span class='play hidden-xs'></span>
                     <span class='pic-text text-right'>电影尝鲜</span>
                 </a>
