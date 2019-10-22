@@ -36,7 +36,7 @@
 
 					<?php if($xtcms_dongman==1){?><li <?php echo $dm;?>><a href="<?php echo $xtcms_domain;?>dongman.php?m=/dongman/list.php?cat=all&page=1">动漫</a></li><?php }?>
 
-					<?php if($xtcms_zongyi==1){?><li <?php echo $zy;?>><a href="<?php echo $xtcms_domain;?>zongyi.php?m=/zongyi/list.php?cat=all&pageno=1">综艺</a></li><?php }?>
+					<?php if($xtcms_zongyi==1){?><li <?php echo $zy;?>><a href="<?php echo $xtcms_domain;?>zongyi.php?m=/zongyi/list.php?cat=all&page=1">综艺</a></li><?php }?>
 
 
 
@@ -48,9 +48,9 @@
 
 						?>
 
-<li class="act<?php echo $row['id'];?>"><a href="<?php echo $row['n_url'];?>" target="_blank"><?php echo $row['n_name'];?></a></li>
+						<li class="act<?php echo $row['id'];?>"><a href="<?php echo $row['n_url'];?>" target="_blank"><?php echo $row['n_name'];?></a></li>
 
-<?php
+						<?php
 
 						}
 
