@@ -74,7 +74,7 @@
         <i class="icon iconfont icon-mallanimation"></i>
         <p class="text">动漫</p>
     </a>
-   <a href="<?php echo $xtcms_domain;?>zongyi.php?m=/zongyi/list.php?cat=all&pageno=1" class="item ">
+   <a href="<?php echo $xtcms_domain;?>zongyi.php?m=/zongyi/list.php?cat=all&page=1" class="item ">
      <i class="icon iconfont icon-flag"></i>
         <p class="text">综艺</p>
     </a>
