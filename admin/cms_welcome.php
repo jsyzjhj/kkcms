@@ -247,7 +247,7 @@ echo get_cfg_var ("memory_limit")?get_cfg_var("memory_limit"):"无"
 											</div>
 											<div class="col-xs-6 text-right">
 												<span class="label label-warning bk-noradius">
-												V1.36
+												V1.365
 </span>
 											</div>
 										</div>
