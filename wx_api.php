@@ -1,6 +1,6 @@
 <?php
-include('system/conn.php');
 include('system/inc.php');
+ob_clean();
 $result = mysql_query('select * from xtcms_system where id = 1');
 $row = mysql_fetch_array($result);
 $xtcms_domain = $row['s_domain'];
