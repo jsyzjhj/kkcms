@@ -25,17 +25,17 @@
 <ul class="nav nav-tabs">
 <li class="active"><a href="#">求片留言</a></li>
 </ul>
-</div>			
+</div>
 <form method="post" class="messages">
 <div class="tab-content">
 <div class="hy-play-list tab-pane fade in active" id="list3">
 <div class="item">
 <div class="plot">
 <ul class="gbook-form">
-<li><input class="form-control" type="text" placeholder="昵称" id="input1" onblur="jieshou()" name="userid"></li>
+<li><input class="form-control" type="text" placeholder="请填写昵称" id="input1" onblur="jieshou()" name="userid"></li>
 <li><textarea cols="40" rows="5" class="form-control" placeholder="例如：我想看《太阳的后裔》" id="input4" onblur="content()" name="content"></textarea></li>
 <li><input id="verifycode" class="form-control" name="verifycode" type="text" size="10" placeholder="验证码" style="width: 80px; display: inline-block; margin-right: 10px;" class="text" tabindex="3" />
-<img style="height: 28px; cursor:pointer;" src="../system/verifycode.php" onclick="javascript:this.src='../system/verifycode.php?'+Math.random()" style="cursor:pointer;" title="看不清？点击更换" align="absmiddle" /></li>
+<img style="height: 28px; cursor:pointer;" src="<?php echo $xtcms_domain;?>system/verifycode.php" onclick="javascript:this.src='<?php echo $xtcms_domain;?>system/verifycode.php?'+Math.random()" style="cursor:pointer;" title="看不清？点击更换" align="absmiddle" /></li>
 <li><input type="submit" value="提交" name="submit" class="btn btn-primary pull-right" /><input type="reset" value="重填" class="btn btn-default" /></li>
 </ul>
 </div>
@@ -74,7 +74,7 @@ $zhStr = $row['Reply'];
 <?php } ?>
 <ul class="stui-page text-center">
 <?php echo page_show($pager[2],$pager[3],$pager[4],2);?></a></ul>
-</div>	     
+</div>
 </div>
 </div>
 </div>
