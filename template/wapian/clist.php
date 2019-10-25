@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <?php  include 'head.php';
-$movie='class="active"'?>
+$cx='class="active"'?>
 <title>电影尝鲜，最新热门电影大全-<?php echo $xtcms_seoname;?></title>
 <meta name="keywords" content="电影尝鲜,<?php echo $xtcms_keywords;?>">
 <meta name="description" content="<?php echo $xtcms_description;?>">
