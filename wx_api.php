@@ -79,13 +79,16 @@ class wechatCallbackapiTest
 							$vod = "SELECT * FROM `xtcms_vod` WHERE `d_name` like '%".$keyword."%'  LIMIT 0 , 10";
 							$shipin= mysql_query($vod);
 							$itemCount = 0;
+							$item360 = 0;
+							$itemzw = 0;
 							$res = $this->search($keyword);
+							$zwres=$this->zwcx($keyword);
 							//是否有搜索结果
 							if(mysql_num_rows($shipin)>0 || !empty($res[0])){
 								//取出数据库中影片信息
 								while($row = mysql_fetch_assoc($shipin))
 								{
-									if ($itemCount >= 10) {
+									if ($itemCount >= 3) {
 										break;
 									}
 									$title = "".$row['d_name']."";
@@ -95,16 +98,27 @@ class wechatCallbackapiTest
 								}
 								//取出360搜索中影片信息
 								for ($i = 0; $i< count($res[0]); $i++) {
-									if ($itemCount >= 10) {
+									if ($item360 >= 5) {
 										break;
 									}
 									$title = $res[0][$i];
 									$url =  yuming."play.php?play=".str_replace("http://www.360kan.com", "", $res[2][$i]);
 									$str .= "<a href='{$url}'>{$title}</a> \r\n";
-									++$itemCount;
+									++$item360;
+								}
+								$str.="\r\n";
+								//取出站外资源中影片信息
+								for ($j = 0; $j < count($zwres[0]); $j++) {
+									if ($itemzw >= 3) {
+										break;
+									}
+									$title = $zwres[0][$j];
+									$url =  yuming . "mplay.php?mso=" . $zwres[2][$j];
+									$str .= "▶ <a href='{$url}'> {$title} 【抢先看】</a> ◀\r\n";
+									++$itemzw;
 								}
 
-								$str .= "----------------------------\r\n 如果没有找到您要的结果,<a href='" . yuming . "book.php" . "'>☞点击这里☜</a>反馈给我们";
+								$str .= "----------------------------\r\n 没有找到您要的结果?<a href='" . yuming . "book.php" . "'>☞点击这里☜</a>反馈给我们";
 								$contentStr .= sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $str);
 								echo $contentStr;
 							}
@@ -185,6 +199,20 @@ class wechatCallbackapiTest
         $two = $sarr2[1];//图片
         $nine = $sarr1[1];
 		return array($one,$two,$nine);
+	}
+
+	//站外资源搜索
+	private function zwcx($keyword){
+		include('data/cxini.php'); //站外配置文件
+		$link=$zwcx['zhanwai'];
+		$a = $link.'index.php/search?wd='.rawurlencode($keyword);
+		$response=curl_get($a);
+		$zhanw1='#<li><a href="/index.php/show/index/(.*?)">(.*?)<img src="(.*?)" /><span>(.*?)</span></a></li>#';
+		preg_match_all($zhanw1, $response,$zhanw1rr);
+		$id=$zhanw1rr[1]; //id
+		$img=$zhanw1rr[3];  //图片
+		$title=$zhanw1rr[4];  //标题
+		return array($title, $img, $id);
 	}
 }
 ?>
