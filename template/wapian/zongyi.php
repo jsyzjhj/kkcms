@@ -20,132 +20,132 @@
             <dl class="clearfix">
               <dt class="text-muted">按剧情</dt>
               <dd class="clearfix">
-                <a href="?m=/zongyi/list.php?cat=all&pageno=1" class="acat" style="white-space: pre-wrap;">全部</a>
-                <a href="?m=/zongyi/list.php?cat=120">真人秀
+                <a href="?m=/zongyi/list.php?cat=all&page=1" class="acat" style="white-space: pre-wrap;">全部</a>
+                <a href="?m=/zongyi/list.php?cat=120&page=1">真人秀
                 </a>
-                <a href="?m=/zongyi/list.php?cat=101">选秀
+                <a href="?m=/zongyi/list.php?cat=101&page=1">选秀
                 </a>
-                <a href="?m=/zongyi/list.php?cat=102">八卦
+                <a href="?m=/zongyi/list.php?cat=102&page=1">八卦
                 </a>
-                <a href="?m=/zongyi/list.php?cat=103">访谈
+                <a href="?m=/zongyi/list.php?cat=103&page=1">访谈
                 </a>
-                <a href="?m=/zongyi/list.php?cat=104">情感
+                <a href="?m=/zongyi/list.php?cat=104&page=1">情感
                 </a>
-                <a href="?m=/zongyi/list.php?cat=105">生活
+                <a href="?m=/zongyi/list.php?cat=105&page=1">生活
                 </a>
-                <a href="?m=/zongyi/list.php?cat=106">晚会
+                <a href="?m=/zongyi/list.php?cat=106&page=1">晚会
                 </a>
-                <a href="?m=/zongyi/list.php?cat=107">搞笑
+                <a href="?m=/zongyi/list.php?cat=107&page=1">搞笑
                 </a>
-                <a href="?m=/zongyi/list.php?cat=108">音乐
+                <a href="?m=/zongyi/list.php?cat=108&page=1">音乐
                 </a>
-                <a href="?m=/zongyi/list.php?cat=109">时尚
+                <a href="?m=/zongyi/list.php?cat=109&page=1">时尚
                 </a>
-                <a href="?m=/zongyi/list.php?cat=110">游戏
+                <a href="?m=/zongyi/list.php?cat=110&page=1">游戏
                 </a>
-                <a href="?m=/zongyi/list.php?cat=111">少儿
+                <a href="?m=/zongyi/list.php?cat=111&page=1">少儿
                 </a>
-                <a href="?m=/zongyi/list.php?cat=112">体育
+                <a href="?m=/zongyi/list.php?cat=112&page=1">体育
                 </a>
-                <a href="?m=/zongyi/list.php?cat=113">纪实
+                <a href="?m=/zongyi/list.php?cat=113&page=1">纪实
                 </a>
-                <a href="?m=/zongyi/list.php?cat=114">科教
+                <a href="?m=/zongyi/list.php?cat=114&page=1">科教
                 </a>
-                <a href="?m=/zongyi/list.php?cat=115">曲艺
+                <a href="?m=/zongyi/list.php?cat=115&page=1">曲艺
                 </a>
-                <a href="?m=/zongyi/list.php?cat=116">歌舞
+                <a href="?m=/zongyi/list.php?cat=116&page=1">歌舞
                 </a>
-                <a href="?m=/zongyi/list.php?cat=117">财经
+                <a href="?m=/zongyi/list.php?cat=117&page=1">财经
                 </a>
-                <a href="?m=/zongyi/list.php?cat=118">汽车
+                <a href="?m=/zongyi/list.php?cat=118&page=1">汽车
                 </a>
-                <a href="?m=/zongyi/list.php?cat=119">播报
+                <a href="?m=/zongyi/list.php?cat=119&page=1">播报
                 </a>
-                <a href="?m=/zongyi/list.php?cat=other">其他
+                <a href="?m=/zongyi/list.php?cat=other&page=1">其他
                 </a></dd>
             </dl>
             <dl class="cleafix">
               <dt class="text-muted">按明星</dt>
               <dd class="clearfix">
-                <a href="?m=/zongyi/list.php?act=all&pageno=1">全部</a>
-                <a href="?m=/zongyi/list.php?act=邓超">邓超
+                <a href="?m=/zongyi/list.php?act=all&page=1">全部</a>
+                <a href="?m=/zongyi/list.php?act=邓超&page=1">邓超
                 </a>
-                <a href="?m=/zongyi/list.php?act=陈赫">陈赫
+                <a href="?m=/zongyi/list.php?act=陈赫&page=1">陈赫
                 </a>
-                <a href="?m=/zongyi/list.php?act=何炅">何炅
+                <a href="?m=/zongyi/list.php?act=何炅&page=1">何炅
                 </a>
-                <a href="?m=/zongyi/list.php?act=汪涵">汪涵
+                <a href="?m=/zongyi/list.php?act=汪涵&page=1">汪涵
                 </a>
-                <a href="?m=/zongyi/list.php?act=王俊凯">王俊凯
+                <a href="?m=/zongyi/list.php?act=王俊凯&page=1">王俊凯
                 </a>
-                <a href="?m=/zongyi/list.php?act=黄磊">黄磊
+                <a href="?m=/zongyi/list.php?act=黄磊&page=1">黄磊
                 </a>
-                <a href="?m=/zongyi/list.php?act=谢娜">谢娜
+                <a href="?m=/zongyi/list.php?act=谢娜&page=1">谢娜
                 </a>
-                <a href="?m=/zongyi/list.php?act=黄渤">黄渤
+                <a href="?m=/zongyi/list.php?act=黄渤&page=1">黄渤
                 </a>
-                <a href="?m=/zongyi/list.php?act=周杰伦">周杰伦
+                <a href="?m=/zongyi/list.php?act=周杰伦&page=1">周杰伦
                 </a>
-                <a href="?m=/zongyi/list.php?act=吴亦凡">吴亦凡
+                <a href="?m=/zongyi/list.php?act=吴亦凡&page=1">吴亦凡
                 </a>
-                <a href="?m=/zongyi/list.php?act=赵薇">赵薇
+                <a href="?m=/zongyi/list.php?act=赵薇&page=1">赵薇
                 </a>
-                <a href="?m=/zongyi/list.php?act=薛之谦">薛之谦
+                <a href="?m=/zongyi/list.php?act=薛之谦&page=1">薛之谦
                 </a>
-                <a href="?m=/zongyi/list.php?act=Angelababy">Angelababy
+                <a href="?m=/zongyi/list.php?act=Angelababy&page=1">Angelababy
                 </a>
-                <a href="?m=/zongyi/list.php?act=易烊千玺">易烊千玺
+                <a href="?m=/zongyi/list.php?act=易烊千玺&page=1">易烊千玺
                 </a>
-                <a href="?m=/zongyi/list.php?act=岳云鹏">岳云鹏
+                <a href="?m=/zongyi/list.php?act=岳云鹏&page=1">岳云鹏
                 </a>
-                <a href="?m=/zongyi/list.php?act=王嘉尔">王嘉尔
+                <a href="?m=/zongyi/list.php?act=王嘉尔&page=1">王嘉尔
                 </a>
-                <a href="?m=/zongyi/list.php?act=鹿晗">鹿晗
+                <a href="?m=/zongyi/list.php?act=鹿晗&page=1">鹿晗
                 </a>
-                <a href="?m=/zongyi/list.php?act=杨幂">杨幂
+                <a href="?m=/zongyi/list.php?act=杨幂&page=1">杨幂
                 </a>
-                <a href="?m=/zongyi/list.php?act=沈腾">沈腾
+                <a href="?m=/zongyi/list.php?act=沈腾&page=1">沈腾
                 </a>
-                <a href="?m=/zongyi/list.php?act=罗志祥">罗志祥
+                <a href="?m=/zongyi/list.php?act=罗志祥&page=1">罗志祥
                 </a>
-                <a href="?m=/zongyi/list.php?act=张艺兴">张艺兴
+                <a href="?m=/zongyi/list.php?act=张艺兴&page=1">张艺兴
                 </a>
-                <a href="?m=/zongyi/list.php?act=潘玮柏">潘玮柏
+                <a href="?m=/zongyi/list.php?act=潘玮柏&page=1">潘玮柏
                 </a>
-                <a href="?m=/zongyi/list.php?act=华晨宇">华晨宇
+                <a href="?m=/zongyi/list.php?act=华晨宇&page=1">华晨宇
                 </a>
-                <a href="?m=/zongyi/list.php?act=李维嘉">李维嘉
+                <a href="?m=/zongyi/list.php?act=李维嘉&page=1">李维嘉
                 </a>
-                <a href="?m=/zongyi/list.php?act=钱枫">钱枫
+                <a href="?m=/zongyi/list.php?act=钱枫&page=1">钱枫
                 </a>
-                <a href="?m=/zongyi/list.php?act=宋小宝">宋小宝
+                <a href="?m=/zongyi/list.php?act=宋小宝&page=1">宋小宝
                 </a>
-                <a href="?m=/zongyi/list.php?act=贾玲">贾玲
+                <a href="?m=/zongyi/list.php?act=贾玲&page=1">贾玲
                 </a>
-                <a href="?m=/zongyi/list.php?act=范冰冰">范冰冰
+                <a href="?m=/zongyi/list.php?act=范冰冰&page=1">范冰冰
                 </a>
-                <a href="?m=/zongyi/list.php?act=沙溢">沙溢
+                <a href="?m=/zongyi/list.php?act=沙溢&page=1">沙溢
                 </a>
-                <a href="?m=/zongyi/list.php?act=撒贝宁">撒贝宁
+                <a href="?m=/zongyi/list.php?act=撒贝宁&page=1">撒贝宁
                 </a>
-                <a href="?m=/zongyi/list.php?act=涂磊">涂磊
+                <a href="?m=/zongyi/list.php?act=涂磊&page=1">涂磊
                 </a></dd>
             </dl>
             <dl class="cleafix hidden-sm">
               <dt class="text-muted">按地区</dt>
               <dd class="clearfix">
                 <a href="?m=/zongyi/list.php?area=all&page=1">全部</a>
-                <a href="?m=/zongyi/list.php?area=10">大陆
+                <a href="?m=/zongyi/list.php?area=10&page=1">大陆
                 </a>
-                <a href="?m=/zongyi/list.php?area=11">台湾
+                <a href="?m=/zongyi/list.php?area=11&page=1">台湾
                 </a>
-                <a href="?m=/zongyi/list.php?area=12">韩国
+                <a href="?m=/zongyi/list.php?area=12&page=1">韩国
                 </a>
-                <a href="?m=/zongyi/list.php?area=13">日本
+                <a href="?m=/zongyi/list.php?area=13&page=1">日本
                 </a>
-                <a href="?m=/zongyi/list.php?area=14">欧美
+                <a href="?m=/zongyi/list.php?area=14&page=1">欧美
                 </a>
-                <a href="?m=/zongyi/list.php?area=15">香港
+                <a href="?m=/zongyi/list.php?area=15&page=1">香港
                 </a></dd>
             </dl>
           </div>

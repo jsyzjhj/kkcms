@@ -22,63 +22,63 @@
               <dd class="clearfix">
 
                 <a href="?m=/dongman/list.php?cat=all&page=1" class="acat" style="white-space: pre-wrap;">全部</a>
-                <a href="?m=/dongman/list.php?cat=100&">热血</a>
+                <a href="?m=/dongman/list.php?cat=100&page=1">热血</a>
 
-                <a href="?m=/dongman/list.php?cat=101&">恋爱</a>
+                <a href="?m=/dongman/list.php?cat=101&page=1">恋爱</a>
 
-                <a href="?m=/dongman/list.php?cat=102&">美少女</a>
+                <a href="?m=/dongman/list.php?cat=102&page=1">美少女</a>
 
-                <a href="?m=/dongman/list.php?cat=103&">运动</a>
+                <a href="?m=/dongman/list.php?cat=103&page=1">运动</a>
 
-                <a href="?m=/dongman/list.php?cat=104&">校园</a>
+                <a href="?m=/dongman/list.php?cat=104&page=1">校园</a>
 
-                <a href="?m=/dongman/list.php?cat=105&">搞笑</a>
+                <a href="?m=/dongman/list.php?cat=105&page=1">搞笑</a>
 
-                <a href="?m=/dongman/list.php?cat=108&">悬疑</a>
+                <a href="?m=/dongman/list.php?cat=108&page=1">悬疑</a>
 
-                <a href="?m=/dongman/list.php?cat=107&">冒险</a>
+                <a href="?m=/dongman/list.php?cat=107&page=1">冒险</a>
 
-                <a href="?m=/dongman/list.php?cat=109&">魔幻</a>
+                <a href="?m=/dongman/list.php?cat=109&page=1">魔幻</a>
 
-                <a href="?m=/dongman/list.php?cat=132&">新番动画</a>
-                <a href="?m=/dongman/list.php?cat=123&">青春</a><a href="?m=/dongman/list.php?cat=119&">竞技</a>
-                <a href="?m=/dongman/list.php?cat=other&">其他</a></dd>
+                <a href="?m=/dongman/list.php?cat=132&page=1">新番动画</a>
+                <a href="?m=/dongman/list.php?cat=123&page=1">青春</a><a href="?m=/dongman/list.php?cat=119&page=1">竞技</a>
+                <a href="?m=/dongman/list.php?cat=other&page=1">其他</a></dd>
             </dl>
             <dl class="cleafix">
               <dt class="text-muted">按年份</dt>
               <dd class="clearfix">
-                <a href="?m=/dongman/list.php?area=all&pageno=1">全部</a>
-                <a href="?m=/dongman/list.php?year=2018&">2018</a>
+                <a href="?m=/dongman/list.php?area=all&page=1">全部</a>
+                <a href="?m=/dongman/list.php?year=2018&page=1">2018</a>
 
-                <a href="?m=/dongman/list.php?year=2017&">2017</a>
+                <a href="?m=/dongman/list.php?year=2017&page=1">2017</a>
 
-                <a href="?m=/dongman/list.php?year=2016&">2016</a>
+                <a href="?m=/dongman/list.php?year=2016&page=1">2016</a>
 
-                <a href="?m=/dongman/list.php?year=2015&">2015</a>
+                <a href="?m=/dongman/list.php?year=2015&page=1">2015</a>
 
-                <a href="?m=/dongman/list.php?year=2014&">2014</a>
+                <a href="?m=/dongman/list.php?year=2014&page=1">2014</a>
 
-                <a href="?m=/dongman/list.php?year=other&">更早</a>
+                <a href="?m=/dongman/list.php?year=other&page=1">更早</a>
 
-                <a href="?m=/dongman/list.php?year=2013&">2013</a>
+                <a href="?m=/dongman/list.php?year=2013&page=1">2013</a>
 
-                <a href="?m=/dongman/list.php?year=2012&">2012</a>
+                <a href="?m=/dongman/list.php?year=2012&page=1">2012</a>
 
-                <a href="?m=/dongman/list.php?year=2011&">2011</a>
+                <a href="?m=/dongman/list.php?year=2011&page=1">2011</a>
 
-                <a href="?m=/dongman/list.php?year=2010&">2010</a>
+                <a href="?m=/dongman/list.php?year=2010&page=1">2010</a>
 
-                <a href="?m=/dongman/list.php?year=2009&">2009</a></dd>
+                <a href="?m=/dongman/list.php?year=2009&page=1">2009</a></dd>
             </dl>
             <dl class="cleafix hidden-sm">
               <dt class="text-muted">按地区</dt>
               <dd class="clearfix">
                 <a href="?m=/dongman/list.php?area=all&page=1">全部</a>
-                <a href="?m=/dongman/list.php?area=10&">大陆</a>
+                <a href="?m=/dongman/list.php?area=10&page=1">大陆</a>
 
-                <a href="?m=/dongman/list.php?area=12&">美国</a>
+                <a href="?m=/dongman/list.php?area=12&page=1">美国</a>
 
-                <a href="?m=/dongman/list.php?area=11&">日本</a>
+                <a href="?m=/dongman/list.php?area=11&page=1">日本</a>
 
             </dl>
           </div>

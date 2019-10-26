@@ -32,78 +32,78 @@
                 <a href="?m=/dianshi/list.php?cat=all&page=1">全部</a>
 
 
-                <a href="?m=/dianshi/list.php?cat=111&">都市</a>
+                <a href="?m=/dianshi/list.php?cat=111&page=1">都市</a>
 
-                <a href="?m=/dianshi/list.php?cat=100&">偶像</a>
+                <a href="?m=/dianshi/list.php?cat=100&page=1">偶像</a>
 
-                <a href="?m=/dianshi/list.php?cat=109&">喜剧</a>
+                <a href="?m=/dianshi/list.php?cat=109&page=1">喜剧</a>
 
-                <a href="?m=/dianshi/list.php?cat=107&">军事</a>
+                <a href="?m=/dianshi/list.php?cat=107&page=1">军事</a>
 
-                <a href="?m=/dianshi/list.php?cat=108&">悬疑</a>
+                <a href="?m=/dianshi/list.php?cat=108&page=1">悬疑</a>
 
-                <a href="?m=/dianshi/list.php?cat=103&">警匪</a>
+                <a href="?m=/dianshi/list.php?cat=103&page=1">警匪</a>
 
-                <a href="?m=/dianshi/list.php?cat=105&">伦理</a>
+                <a href="?m=/dianshi/list.php?cat=105&page=1">伦理</a>
 
-                <a href="?m=/dianshi/list.php?cat=115&">动作</a>
+                <a href="?m=/dianshi/list.php?cat=115&page=1">动作</a>
 
-                <a href="?m=/dianshi/list.php?cat=113&">奇幻</a>
+                <a href="?m=/dianshi/list.php?cat=113&page=1">奇幻</a>
 
-                <a href="?m=/dianshi/list.php?cat=104&">古装</a>
-                <a href="?m=/dianshi/list.php?cat=102&">宫廷</a>
-                <a href="?m=/dianshi/list.php?cat=other&">其他</a></dd>
+                <a href="?m=/dianshi/list.php?cat=104&page=1">古装</a>
+                <a href="?m=/dianshi/list.php?cat=102&page=1">宫廷</a>
+                <a href="?m=/dianshi/list.php?cat=other&page=1">其他</a></dd>
             </dl>
             <dl class="cleafix">
               <dt class="text-muted">按年份</dt>
               <dd class="clearfix">
-                <a href="?m=/dianshi/list.php?year=all&pageno=1">全部</a>
-                <a href="?m=/dianshi/list.php?year=2018&">2018</a>
+                <a href="?m=/dianshi/list.php?year=all&page=1">全部</a>
+                <a href="?m=/dianshi/list.php?year=2018&page=1">2018</a>
 
-                <a href="?m=/dianshi/list.php?year=2017&">2017</a>
+                <a href="?m=/dianshi/list.php?year=2017&page=1">2017</a>
 
-                <a href="?m=/dianshi/list.php?year=2016&">2016</a>
+                <a href="?m=/dianshi/list.php?year=2016&page=1">2016</a>
 
-                <a href="?m=/dianshi/list.php?year=2015&">2015</a>
+                <a href="?m=/dianshi/list.php?year=2015&page=1">2015</a>
 
-                <a href="?m=/dianshi/list.php?year=2014&">2014</a>
+                <a href="?m=/dianshi/list.php?year=2014&page=1">2014</a>
 
-                <a href="?m=/dianshi/list.php?year=other&">更早</a>
+                <a href="?m=/dianshi/list.php?year=other&page=1">更早</a>
 
-                <a href="?m=/dianshi/list.php?year=2013&">2013</a>
+                <a href="?m=/dianshi/list.php?year=2013&page=1">2013</a>
 
-                <a href="?m=/dianshi/list.php?year=2012&">2012</a>
+                <a href="?m=/dianshi/list.php?year=2012&page=1">2012</a>
 
-                <a href="?m=/dianshi/list.php?year=2011&">2011</a>
+                <a href="?m=/dianshi/list.php?year=2011&page=1">2011</a>
 
-                <a href="?m=/dianshi/list.php?year=2010&">2010</a>
+                <a href="?m=/dianshi/list.php?year=2010&page=1">2010</a>
 
-                <a href="?m=/dianshi/list.php?year=2009&">2009</a></dd>
+                <a href="?m=/dianshi/list.php?year=2009&page=1">2009</a></dd>
             </dl>
             <dl class="cleafix hidden-sm">
               <dt class="text-muted">按地区</dt>
               <dd class="clearfix">
                 <a href="?m=/dianshi/list.php?area=all&pageno=1">全部</a>
-                <a href="?m=/dianshi/list.php?area=10&">大陆</a>
+                <a href="?m=/dianshi/list.php?area=10&page=1">大陆</a>
 
-                <a href="?m=/dianshi/list.php?area=11&">香港</a>
+                <a href="?m=/dianshi/list.php?area=11&page=1">香港</a>
 
-                <a href="?m=/dianshi/list.php?area=16&">台湾</a>
+                <a href="?m=/dianshi/list.php?area=16&page=1">台湾</a>
 
-                <a href="?m=/dianshi/list.php?area=13&">美国</a>
+                <a href="?m=/dianshi/list.php?area=13&page=1">美国</a>
 
-                <a href="?m=/dianshi/list.php?area=12&">韩国</a>
+                <a href="?m=/dianshi/list.php?area=12&page=1">韩国</a>
 
-                <a href="?m=/dianshi/list.php?area=15&">日本</a>
+                <a href="?m=/dianshi/list.php?area=15&page=1">日本</a>
 
-                <a href="?m=/dianshi/list.php?area=14&">泰国</a>
+                <a href="?m=/dianshi/list.php?area=14&page=1">泰国</a>
 
-                <a href="?m=/dianshi/list.php?area=18&">新加坡</a>
+                <a href="?m=/dianshi/list.php?area=18&page=1">新加坡</a>
 
-                <a href="?m=/dianshi/list.php?area=17&">英国</a>
+                <a href="?m=/dianshi/list.php?area=17&page=1">英国</a>
 
 
-                <a href="?m=/dianshi/list.php?area=other&">其他</a></dd>
+                <a href="?m=/dianshi/list.php?area=other&page=1">其他</a></dd>
             </dl>
           </div>
         </div>

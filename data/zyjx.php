@@ -81,6 +81,7 @@ switch($_GET['n']){
                 $guq = $listarr[1][$key];
                 $_GET['id'] = $gul;
                 $zimg = $imgarr[1][$key];
+                $zimg=str_replace("p9.qhimg.com", "p.ssl.qhimg.com",$zimg);
                 $zname = $namearr[1][$key];
                 $nname = $nnamearr[1][$key];
                 $qishu = $xjishu[1][$key];

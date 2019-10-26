@@ -203,13 +203,13 @@
 			<div class="hy-layout clearfix">
 				<div class="hy-video-head">
 					<ul class="pull-right">
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=103&pageno=1" class="text-muted border-right">喜剧</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=100&pageno=1" class="text-muted border-right">爱情</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=106&pageno=1" class="text-muted border-right">动作</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=102&pageno=1" class="text-muted border-right">恐怖</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=104&pageno=1" class="text-muted border-right">科幻</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=112&pageno=1" class="text-muted border-right">剧情</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=105&pageno=1" class="text-muted border-right">犯罪</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=103&page=1" class="text-muted border-right">喜剧</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=100&page=1" class="text-muted border-right">爱情</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=106&page=1" class="text-muted border-right">动作</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=102&page=1" class="text-muted border-right">恐怖</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=104&page=1" class="text-muted border-right">科幻</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=112&page=1" class="text-muted border-right">剧情</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/movie.php?m=/dianying/list.php?cat=105&page=1" class="text-muted border-right">犯罪</a> /</li>
 
 						<li class="active"><a href="movie.php?m=/dianying/list.php?cat=all&page=1" class="text-muted">更多 <i class="icon iconfont icon-right"></i></a></li>
 					</ul>
@@ -231,19 +231,19 @@
 			<div class="hy-layout clearfix">
 				<div class="hy-video-head">
 					<ul class="pull-right">
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=101&pageno=1" class="text-muted border-right">言情</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=105&pageno=1" class="text-muted border-right">伦理</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=109&pageno=1" class="text-muted border-right">喜剧</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=108&pageno=1" class="text-muted border-right">悬疑</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=111&pageno=1" class="text-muted border-right">都市</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=100&pageno=1" class="text-muted border-right">偶像</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=101&page=1" class="text-muted border-right">言情</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=105&page=1" class="text-muted border-right">伦理</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=109&page=1" class="text-muted border-right">喜剧</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=108&page=1" class="text-muted border-right">悬疑</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=111&page=1" class="text-muted border-right">都市</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=100&page=1" class="text-muted border-right">偶像</a> /</li>
 
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?u=/dianshi/list.php?cat=107&pageno=1" class="text-muted border-right">军事</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="tv.php?m=/dianshi/list.php?cat=107&page=1" class="text-muted border-right">军事</a> /</li>
 						<li class="active"><a href="./tv.php?m=/dianshi/list.php?cat=all&page=1" class="text-muted">更多 <i class="icon iconfont icon-right"></i></a></li>
 					</ul>
 					<h3 class="margin-0"><i class="icon iconfont icon-show text-color"></i>电视剧</h3>
 				</div>
-				<div class="clearfix" kkcms="tv" >
+				<div class="clearfix" kkcms="tv">
 					<div class="hy-video-footer visible-xs clearfix">
 						<a href="./tv.php?m=/dianshi/list.php?cat=all&page=1" class="text-muted">查看更多 <i class="icon iconfont icon-right pull-right"></i></a>
 					</div>
@@ -259,13 +259,13 @@
 			<div class="hy-layout clearfix">
 				<div class="hy-video-head">
 					<ul class="pull-right">
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=101&pageno=1" class="text-muted border-right">选秀</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=102&pageno=1" class="text-muted border-right">八卦</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=103&pageno=1" class="text-muted border-right">访谈</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=104&pageno=1" class="text-muted border-right">情感</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=105&pageno=1" class="text-muted border-right">生活</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=106&pageno=1" class="text-muted border-right">晚会</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=107&pageno=1" class="text-muted border-right">搞笑</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=101&page=1" class="text-muted border-right">选秀</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=102&page=1" class="text-muted border-right">八卦</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=103&page=1" class="text-muted border-right">访谈</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=104&page=1" class="text-muted border-right">情感</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=105&page=1" class="text-muted border-right">生活</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=106&page=1" class="text-muted border-right">晚会</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/zongyi.php?m=/zongyi/list.php?cat=107&page=1" class="text-muted border-right">搞笑</a> /</li>
 
 						<li class="active"><a href="./zongyi.php?m=/zongyi/list.php?cat=all&page=1" class="text-muted">更多 <i class="icon iconfont icon-right"></i></a></li>
 					</ul>
@@ -287,20 +287,20 @@
 			<div class="hy-layout clearfix">
 				<div class="hy-video-head">
 					<ul class="pull-right">
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=100&pageno=1" class="text-muted border-right">热血</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=101&pageno=1" class="text-muted border-right">恋爱</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=102&pageno=1" class="text-muted border-right">美少女</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=103&pageno=1" class="text-muted border-right">运动</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=104&pageno=1" class="text-muted border-right">校园</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=105&pageno=1" class="text-muted border-right">搞笑</a> /</li>
-						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=107&pageno=1" class="text-muted border-right">冒险</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=100&page=1" class="text-muted border-right">热血</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=101&page=1" class="text-muted border-right">恋爱</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=102&page=1" class="text-muted border-right">美少女</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=103&page=1" class="text-muted border-right">运动</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=104&page=1" class="text-muted border-right">校园</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=105&page=1" class="text-muted border-right">搞笑</a> /</li>
+						<li class="text-muted hidden-md hidden-sm hidden-xs"><a href="/dongman.php?m=/dongman/list.php?cat=107&page=1" class="text-muted border-right">冒险</a> /</li>
 
 						<li class="active"><a href="./dongman.php?m=/dongman/list.php?cat=all&page=1" class="text-muted">更多 <i class="icon iconfont icon-right"></i></a></li>
 					</ul>
 					<h3 class="margin-0"><i class="icon iconfont icon-icon_special text-color"></i>动漫</h3>
 				</div>
 				<div class="clearfix" kkcms="dm">
-					 <div class="hy-video-footer visible-xs clearfix">
+					<div class="hy-video-footer visible-xs clearfix">
 						<a href="./dongman.php?m=/dongman/list.php?cat=all%26pageno=1" class="text-muted">查看更多 <i class="icon iconfont icon-right pull-right"></i></a>
 					</div>
 				</div>
@@ -359,17 +359,18 @@
 		});
 	</script>
 	<script>
-	ajax("./data/zwcximg.php?n=wp","[kkcms=cx]");
-	ajax("./data/dyjx.php?n=wp","[kkcms=dy]");
-	ajax("./data/tvjx.php?n=wp","[kkcms=tv]");
-	ajax("./data/zyjx.php?n=wp","[kkcms=zy]");
-	ajax("./data/dmjx.php?n=wp","[kkcms=dm]");
-	function ajax(url,kkcms){
-		$.get(url, function(res) {
-			$(kkcms).html(res);
-		})
-		$(kkcms).html("<div style='width:100%;height:150px;margin:10px auto;text-align:center;ling-height:80px;'><img src='<?php echo $xtcms_domain;?>style/jiazai.gif' height='100%' alt='加载动画ajax'></div>");
-	}
+		ajax("./data/zwcximg.php?n=wp", "[kkcms=cx]");
+		ajax("./data/dyjx.php?n=wp", "[kkcms=dy]");
+		ajax("./data/tvjx.php?n=wp", "[kkcms=tv]");
+		ajax("./data/zyjx.php?n=wp", "[kkcms=zy]");
+		ajax("./data/dmjx.php?n=wp", "[kkcms=dm]");
+
+		function ajax(url, kkcms) {
+			$.get(url, function(res) {
+				$(kkcms).html(res);
+			})
+			$(kkcms).html("<div style='width:100%;height:150px;margin:10px auto;text-align:center;ling-height:80px;'><img src='<?php echo $xtcms_domain; ?>style/jiazai.gif' height='100%' alt='加载动画ajax'></div>");
+		}
 	</script>
 	<script>
 		window._bd_share_config = {
