@@ -1,8 +1,25 @@
-<?php 
+<?php
 include('system/inc.php');//载入全局配置文件
-error_reporting(0);//关闭错误报告
-$result = mysql_query('select * from xtcms_vod where d_id = '.$_GET['play'].' ');
-if (!!$row = mysql_fetch_array($result)) {
+error_reporting(0); //关闭错误报告
+//PDO预处理
+try {
+	$dsn = 'mysql:host=' . DATA_HOST . ';dbname=' . DATA_NAME;
+	$pdo=new PDO($dsn, DATA_USERNAME, DATA_PASSWORD);
+	$pdo->exec("SET NAMES utf8");
+	$sql="SELECT * FROM `xtcms_vod` WHERE `d_id` = ?";
+	$stmt = $pdo->prepare($sql);
+	$stmt->bindParam(1, $_GET['play'], PDO::PARAM_INT);
+	$stmt->execute();
+	$res = $stmt->fetchAll(PDO::FETCH_ASSOC);
+	if(!$res){
+		die('您访问的详情不存在');
+	}
+} catch (PDOException $e) {
+	$error = $e->getMessage();
+	// echo $error;
+}
+//遍历数据
+foreach($res as $key=>$row){
 	$d_id = $row['d_id'];
 	$d_name = $row['d_name'];
 	$d_jifen = $row['d_jifen'];
@@ -15,10 +32,9 @@ if (!!$row = mysql_fetch_array($result)) {
 	$d_keywords = $row['d_keywords'];
 	$d_description = $row['d_description'];
 	$d_player = $row['d_player'];
-	$d_title = ($d_seoname == '') ? $d_name .' - '.$xtcms_name : $d_seoname.' - '.$d_name.' - '.$xtcms_name ;
-} else {
-	die ('您访问的详情不存在');
+	$d_title = ($d_seoname == '') ? $d_name . ' - ' . $xtcms_name : $d_seoname . ' - ' . $d_name . ' - ' . $xtcms_name;
 }
+
 $result1 = mysql_query('select * from xtcms_vod_class where c_id='.$d_parent.' order by c_id asc');
 while ($row1 = mysql_fetch_array($result1)){
 $c_hide=$row1['c_hide'];
@@ -33,7 +49,7 @@ if(!isset($_SESSION['user_name'])){
      }
  if($u_group<=1){//如果会员组
  alert_href('对不起,您不能观看会员视频，请升级会员！',''.$xtcms_domain.'ucenter/mingxi.php');
- } 
+ }
 }
 include('system/shoufei.php');
 if($d_jifen>0){//积分大于0,普通会员收费
@@ -46,16 +62,16 @@ if($d_jifen>0){//积分大于0,普通会员收费
      $u_plays=$row['u_plays'];//会员观看记录
      $u_end=$row['u_end'];//到期时间
 	 $u_group=$row['u_group'];//到期时间
-     }	
+     }
 
 	     if($u_group<=1){//如果会员组
      if($d_jifen>$u_points){
 	 alert_href('对不起,您的积分不够，无法观看收费数据，请推荐本站给您的好友、赚取更多积分',''.$xtcms_domain.'ucenter/yaoqing.php');
     }  else{
 
-    if (strpos(",".$u_plays,$d_id) > 0){ 
+    if (strpos(",".$u_plays,$d_id) > 0){
 
-	}	
+	}
 	//有观看记录不扣点
 else{
 
@@ -69,11 +85,11 @@ if (mysql_query($sql)) {
 alert_href('您成功支付'.$d_jifen.'积分,请重新打开视频观看!',''.$xtcms_domain.'bplay.php?play='.$d_id.'');
 }
 }
-	
+
 }
 }
 }
-if($d_user>0){	
+if($d_user>0){
 if(!isset($_SESSION['user_name'])){
 		alert_href('请注册会员登录后观看',''.$xtcms_domain.'ucenter');
 	};
@@ -83,7 +99,7 @@ if(!isset($_SESSION['user_name'])){
      $u_plays=$row['u_plays'];//会员观看记录
      $u_end=$row['u_end'];//到期时间
 	 $u_group=$row['u_group'];//到期时间
-     }		 
+     }
 if($u_group<$d_user){
 	alert_href('您的会员组不支持观看此视频!',''.$xtcms_domain.'ucenter/mingxi.php');
 }
@@ -99,7 +115,6 @@ return $row['n_url'];
 $result = mysql_query('select * from xtcms_vod where d_id ='.$d_id.'');
 	if (!!$row = mysql_fetch_array($result)){
 $d_scontent=explode("\r\n",$row['d_scontent']);
-//print_r($d_scontent);
 for($i=0;$i<count($d_scontent);$i++)
 {	$d_scontent[$i]=explode('$',$d_scontent[$i]);
 		}
@@ -107,6 +122,6 @@ $playdizhi=get_play($row['d_player']).$d_scontent[0][1];
 	}else{
 		return '';
 	};
-	
+
 include('template/'.$xtcms_bdyun.'/bplay.php');
 ?>
