@@ -1,5 +1,5 @@
 <?php
-include('system/inc.php'); //载入全局配置
+include('system/inc.php');
 error_reporting(0);
 if (!file_exists('./install/install.lock')) {
     header("location:install");
