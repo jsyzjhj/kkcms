@@ -1,5 +1,6 @@
 <?php
 include('system/inc.php');
+//关闭错误报告
 error_reporting(0);
 if (!file_exists('./install/install.lock')) {
     header("location:install");
