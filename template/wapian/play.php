@@ -31,11 +31,6 @@
 				<div class="col-md-9 col-sm-12 padding-0">
 					<div class="info embed-responsive">
 <div id="shiping_box"></div>
-<?php
-	if(date("H")>22 || date("H")<6){
-		$mjk= base64_decode("aHR0cHM6Ly9qeC53c2xtZi5jb20/dXJsPQ==");
-	}
-?>
 <script type="text/javascript">
         function run(){
         var s = document.getElementById("timer");
