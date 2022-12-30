@@ -31,7 +31,7 @@ if ($_GET['cid'] != 0){
 	?>
 						
 											  <?php
-$result = mysql_query('select * from xtcms_vod_class where c_pid='.$_GET['cid'].' order by c_sort desc,c_id asc');
+$result = mysql_query('select * from xtcms_vod_class where c_pid='.intval($_GET['cid']).' order by c_sort desc,c_id asc');
 while ($row = mysql_fetch_array($result)){
 
 			echo '<a href="./vlist.php?cid='.$row['c_id'].'" class="acat" style="white-space: pre-wrap;margin-bottom: 4px;">'.$row['c_name'].'</a>';
